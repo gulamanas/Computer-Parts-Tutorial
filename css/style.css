@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: green;
+}
+.brand {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+.brand i {
+    color: #138c8f;
+}
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav_list li {
+    padding: 20px;
+    position: relative;
+    cursor: default;
+}
+.dropdown_item {
+    position: absolute;
+    background: red;
+    width: 180px;
+    list-style: none;
+    left: -50px;
+    top: 60px;
+    transform: scaleY(0);
+    transition: 0.3s ease-in-out;
+    transform-origin: top;
+}
+.nav_list li:hover > ul {
+    transform: scaleY(1);
+}
