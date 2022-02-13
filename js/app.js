@@ -1,9 +1,9 @@
-const burger = document.querySelector('.burger');
-const navSlider = document.querySelector('.nav_list');
+// const burger = document.querySelector('.burger');
+// const navSlider = document.querySelector('.nav_list');
 
-burger.addEventListener('click', onNavSlide);
+// burger.addEventListener('click', onNavSlide);
 
-function onNavSlide() {
-    burger.classList.toggle('switch');
-    navSlider.classList.toggle('navSwitch');
-}
+// function onNavSlide() {
+//     burger.classList.toggle('switch');
+//     navSlider.classList.toggle('navSwitch');
+// }
