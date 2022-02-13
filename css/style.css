@@ -60,11 +60,12 @@
     background: #ccc;
     width: 200px;
     list-style: none;
-    left: -60px;
+    left: -70px;
     top: 70px;
     transform: scaleY(0);
     transition: 0.3s ease-in-out;
     transform-origin: top;
+    border-top: 1px solid #19ebf2;
 }
 .nav_list li:hover > ul {
     transform: scaleY(1);
